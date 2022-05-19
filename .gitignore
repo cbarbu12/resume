@@ -1,0 +1,6 @@
+/_pycache
+/.pytest_cache
+/Include
+/Lib
+/Scripts
+*.cfg
