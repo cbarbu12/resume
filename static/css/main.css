@@ -3620,7 +3620,7 @@ Created using IcoMoon - icomoon.io
 
 .profile-page .button-container {
   text-align: center;
-  margin-top: -106px; }
+  margin-top: -70px; }
 
 .profile-page .collections img {
   margin-bottom: 30px; }
@@ -5263,14 +5263,14 @@ Created using IcoMoon - icomoon.io
 
 /* Footer */
 /* Social button style */
-.cc-facebook:hover i {
-  color: #3b5998; }
+.cc-hackerrank:hover i {
+  color: #00FF00; }
 
 .cc-twitter:hover i {
   color: #1da1f2; }
 
-.cc-google-plus:hover i {
-  color: #dd4b39; }
+.cc-github:hover i {
+  color: #404040; }
 
 .cc-instagram:hover i {
   color: #405de6; }
