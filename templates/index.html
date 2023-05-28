@@ -52,7 +52,7 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="static/images/profile.jpg" alt="Image"/></a></div>
           <div class="h2 title">Cristian Barbu</div>
-          <p class="category text-white">Automation Engineer</p><a class="btn btn-primary" target="_blank" href="{{ url_for('static',filename='Cristian-Alexandru_Barbu_-_Automation_Engineer.pdf') }}" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+          <p class="category text-white">Software Engineer</p><a class="btn btn-primary" target="_blank" href="{{ url_for('static',filename='Cristian-Alexandru_Barbu_-_Automation_Engineer.pdf') }}" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
         </div>
       </div>
       <div class="section">
@@ -70,7 +70,10 @@
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
             <div class="h4 mt-0 title">About</div>
-            <p>I'm an Automation Engineer with a wide range of skills and knowledge in software development, automation and networking that I want to improve.</p>
+            <p>I'm a Software Engineer with a wide range of skills and knowledge in software development, test automation and networking.
+               Currently I'm working as a QA Automation Engineer with 2+ years experience where I've worked on the internal test automation framework
+               but I'm looking forward to work on other projects too since I've interacted with backend frameworks (ASP.NET, Django, Flask) and databases
+               (SSMS, MySQL, PostreSQL, SQLite).</p>
             </div>
         </div>
         <div class="col-lg-6 col-md-12">
@@ -78,7 +81,16 @@
             <div class="h4 mt-0 title">Basic Information</div>
             <div class="row">
               <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">24</div>
+              <div class="col-sm-8">
+                <script>
+                  var dob = new Date("12/12/1997");
+                  var month_diff = Date.now() - dob.getTime();
+                  var age_dt = new Date(month_diff); 
+                  var year = age_dt.getUTCFullYear();
+                  var age = Math.abs(year - 1970);
+                  document.write(age);
+              </script>
+              </div>
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
@@ -107,8 +119,8 @@
     <div class="h4 text-center mb-4 title">Professional Skills</div>
     <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
       <div class="card-body">
-        <b>Programming Languages:</b> Python, C#/.NET, JavaScript, Java<br><br>
-        <b>Frameworks:</b> Selenium, NUnit, PyTest, Robot, Easy Repro, Playwright<br><br>
+        <b>Programming Languages:</b> Python, C#/.NET, JavaScript, Java, SQL<br><br>
+        <b>Frameworks:</b> Internal test automation frameworks(using Selenium, NUnit, PyTest), Robot, Easy Repro, Playwright<br><br>
         <b>Tools & Technologies:</b> Azure DevOps, Grafana, Docker, Postman, SSMS, REST API, Git, Visul Studio, PyCharm<br><br>
         <b>Database Management Systems:</b> Microsoft SQL Server, MySQL, SQLite3
       </div>
@@ -132,11 +144,12 @@
             <div class="h5">QA Automation Engineer</div>
             <p>
               <ul>
-                <li>Worked within a Scrum team following Scaled Agile Framework</li>  
+                <li>Worked within a Scrum team following Scaled Agile Framework</li>
+                <li>Developed new components for the internal test automation framework using C#</li>
                 <li>Developed UI and Back-End tests covering all endpoints</li>
                 <li>Maintenance of the existing tests</li>
-                <li>Created new components for the internal automation framework</li>
-                <li>Set triggers for CI jobs, set schedules and configure Azure automation pipelines</li>
+                <li>Created scripts using Python and JavaScript for Postman API calls</li>
+                <li>Configure Azure automation pipelines and prepare reports with test results</li>
               </ul>
               </p>
           </div>
